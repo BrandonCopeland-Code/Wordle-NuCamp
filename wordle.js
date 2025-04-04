@@ -76,7 +76,7 @@ function submitGuess() {
         inputWordle.disabled = true;
     }
     
-    if (wordleArray.length === 0) {
+    if (wordleArray.length === 0 && wordleWord !== inputWordle.value) {
         let result = document.getElementById("resultMessage");
         result.textContent = "You have lost! =(";
         result.style.color = 'red';
