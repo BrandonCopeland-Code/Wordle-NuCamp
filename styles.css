@@ -1,0 +1,33 @@
+.box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10 px;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+#resultMessage {
+    font-size: 50px;
+}
+
+#wordle-box {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center all child elements horizontally */
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#form {
+    padding-top: 20px;
+}
